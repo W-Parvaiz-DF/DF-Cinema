@@ -1,0 +1,13 @@
+/* Nav */
+
+.navbar-nav {
+  gap: 16px;
+}
+
+/* Footer */
+
+footer .navbar-nav {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
