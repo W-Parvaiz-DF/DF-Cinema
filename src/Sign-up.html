@@ -39,20 +39,24 @@
         </nav>
     </header>
     <main class="container-fluid">
-        <div class="row SignUp">
-            <div class="col-6">
-                <div class="row">
-                    <img src="./img/film_reel.jpeg" alt="Film reel">
+        <div class="row SignUp gx-5">
+            <div class="col-lg-6 col-md-12">
+                <img src="./img/signup_img.jpeg" alt="SignUp" class="rounded mt-5">
+                <!-- <div class="row"> -->
+                <!-- <img src="./img/film_reel.jpeg" alt="Film reel">
                 </div>
                 <div class="row">
                     <img src="./img/film_reel.jpeg" alt="film_reel">
                 </div>
                 <div class="row">
                     <img src="./img/Woman_lens_photo.jpeg" alt="Woman_lens_photo">
-                </div>
+                </div> -->
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <form action="#">
+                    <div>
+                        <p> * Fields are mandatory </p>
+                    </div>
                     <div class="form-group">
                         <label for="Titlebox">Title*</label>
                         <select class="form-select mb-2" id="Titlebox">
@@ -64,30 +68,39 @@
                     <div class="form-group">
                         <label for="firstname">First Name*
                         </label>
-                        <input type="text" placeholder="First Name" class="form-control mb-2" id="firstname">
+                        <input type="text" placeholder="First Name" class="form-control mb-4" id="firstname">
                     </div>
                     <div class="form-group">
                         <label for="lastname">Last Name*</label>
-                        <input type="text" name="last name" placeholder="Last Name" class="form-control mb-2"
+                        <input type="text" name="last name" placeholder="Last Name" class="form-control mb-4"
                             id="lastname">
                     </div>
                     <div class="form-group">
                         <label for="Email address">Email Address*</label>
-                        <input type="email" name="Email Address" placeholder="Email Address" class="form-control mb-2"
+                        <input type="email" name="Email Address" placeholder="Email Address" class="form-control mb-4"
                             id="Email Address">
                     </div>
 
                     <div class="form-group">
-                        <label for="Date of Birth"> Date of Birth*</label>
-                        <input type="date" value="2022-01-01" class="mb-2" id="Date of Birth">
+                        <label for="Date of Birth"> Date of Birth* </label>
+                        <input type="date" value="2022-01-01" class="mb-4" id="Date of Birth">
                     </div>
 
                     <div class="form-group">
-                        <input type="submit" value="Sign Up" class="btn btn-primary">
+                        <label for="Phone Number">Phone Number*</label>
+                        <input type="tel" name="Phone Number" placeholder="Phone Number" class="form-control mb-4">
                     </div>
 
+                    <div class="form-group">
+                        <input type="submit" value="Sign Up" class="btn btn-primary mb-4">
 
-
+                    </div>
+                    <div class="form-group">
+                        <small id="disclaimer" class="form-text text-muted">By clicking Sign Up, you agree to our Terms,
+                            Data Policy and Cookie Policy. You may receive SMS
+                            notifications from us and can opt out at any time.
+                        </small>
+                    </div>
 
                 </form>
 
