@@ -1,0 +1,23 @@
+{
+  "name": "df-cinema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W-Parvaiz-DF/DF-Cinema.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/W-Parvaiz-DF/DF-Cinema/issues"
+  },
+  "homepage": "https://github.com/W-Parvaiz-DF/DF-Cinema#readme",
+  "dependencies": {
+    "jasmine": "^4.0.2"
+  }
+}
