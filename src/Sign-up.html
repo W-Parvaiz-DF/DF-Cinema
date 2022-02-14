@@ -9,7 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="./styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Home Page</title>
+    <title>Sign Up</title>
 </head>
 
 <body class="container">
@@ -32,45 +32,60 @@
         </nav>
     </header>
     <main class="container-fluid">
-        <!-- Page Content -->
-        <div class="Homepage">
-            <div class="row">
-                <div class="col-lg-8">
-                    <img src="./img/film_roll.webp" alt="Film roll" class="img-fluid">
+        <div class="row SignUp">
+            <div class="col-6">
+                <div class="row">
+                    <img src="./img/film_reel.jpeg" alt="Film reel">
                 </div>
-                <p class="col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius quo
-                    vitae
-                    voluptatem accusamus et sapiente illum aut ex, dolor minus! Voluptas, aut? Qui quam iure maxime.
-                    Saepe nemo hic optio? Iste eveniet laborum dolor. Vero non officiis natus facilis aliquid optio enim
-                    saepe nemo, odit, nam nisi praesentium repudiandae ab atque. Corrupti ut quaerat earum esse corporis
-                    accusamus unde assumenda, magni, in veniam sunt ipsum. Amet, quisquam. Debitis explicabo dolores
-                    odit sequi maiores quos!.</p>
-            </div>
-            <div class="row">
-                <p class="col-lg-4"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt ullam
-                    eum qui
-                    repudiandae! Animi quidem culpa corrupti expedita sequi quibusdam labore fugit quos sapiente? Ex
-                    explicabo, repellat tempora ut quia cupiditate recusandae, sapiente, accusamus minus facilis quos
-                    neque perferendis molestiae impedit. Iusto eius est minus ipsa magni molestias nemo neque quia!
-                    Libero eligendi quae nisi sapiente officia. Beatae incidunt consequatur, doloribus, et dolores
-                    temporibus molestias, fugiat repellendus quam iure amet. Minus libero ipsum earum inventore.</p>
-                <div class="col-lg-8">
-                    <img src="./img/film_reel.jpeg" alt="film reel" class="img-fluid">
+                <div class="row">
+                    <img src="./img/film_reel.jpeg" alt="film_reel">
+                </div>
+                <div class="row">
+                    <img src="./img/Woman_lens_photo.jpeg" alt="Woman_lens_photo">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8">
-                    <img src="./img/Woman_lens_photo.jpeg" alt="woman lens photo" class="img-fluid">
-                </div>
-                <p class="col-lg-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores pariatur ipsum tempore
-                    impedit similique voluptatum tenetur. Et ipsum velit itaque beatae soluta harum odit ad expedita
-                    voluptas recusandae incidunt ea facilis nesciunt quibusdam officia voluptatibus, deserunt tempore
-                    sequi. Nam amet officia labore error nesciunt vitae ea praesentium perspiciatis, nulla, delectus,
-                    natus ipsam sed quaerat odit? Et accusantium corporis quia quae iste, totam temporibus molestiae
-                    cumque praesentium, harum, rerum velit blanditiis nemo deserunt veniam eos!</p>
+            <div class="col-6">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="Titlebox">Title*</label>
+                        <select class="form-select mb-2" id="Titlebox">
+                            <option value="Mrs">Mrs</option>
+                            <option value="Mr">Mr</option>
+                            <option value="Miss">Miss</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">First Name*
+                        </label>
+                        <input type="text" placeholder="First Name" class="form-control mb-2" id="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name*</label>
+                        <input type="text" name="last name" placeholder="Last Name" class="form-control mb-2"
+                            id="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email address">Email Address*</label>
+                        <input type="email" name="Email Address" placeholder="Email Address" class="form-control mb-2"
+                            id="Email Address">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Date of Birth"> Date of Birth*</label>
+                        <input type="date" value="2022-01-01" class="mb-2" id="Date of Birth">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Sign Up" class="btn btn-primary">
+                    </div>
+
+
+
+
+                </form>
+
             </div>
-        </div>
+
     </main>
     <footer class="container-fluid">
         <nav class="navbar">
