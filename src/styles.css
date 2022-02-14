@@ -11,3 +11,10 @@ footer .navbar-nav {
   flex-direction: row;
   justify-content: center;
 }
+
+
+.Homepage img{
+  width:100%;
+  height:265px;
+  margin-bottom: 50px;
+}
