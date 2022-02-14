@@ -1,0 +1,27 @@
+.row {
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.image-fit {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.margin-img {
+    margin-bottom: 20px;
+}
+
+.margin-sm {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px){
+    .margin-img {
+        margin-bottom: unset;
+    }
+}
