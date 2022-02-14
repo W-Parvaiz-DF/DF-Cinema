@@ -58,7 +58,7 @@ describe("Validator", () => {
       expect(expected).toBe(actual);
     });
 
-    it("Only strings with a @ character", () => {
+    it("Only strings with a top level domain", () => {
       const validator = new Validator();
       const expected = false;
 
